@@ -1,0 +1,70 @@
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 30px;
+}
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+
+p {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+}
+.panelRight {
+  float: center;
+}
+.top {
+  color: black;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.time {
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 10px;
+  border: 1px solid black;
+  float: center;
+  width: 10%;
+  background: grey;
+  text-align: center;
+}
+
+/* Style the submit button */
+form.example button {
+  float: center;
+  width: 45px;
+  padding: 40px;
+  background: rgb(75, 75, 75);
+  color: black;
+  font-size: 90px;
+  border: 350px solid black;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #4f5357;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: block;
+}
